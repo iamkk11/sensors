@@ -1,0 +1,299 @@
+# Russian translation for indicator-sensors
+# Copyright (c) 2011 Rosetta Contributors and Canonical Ltd 2011
+# This file is distributed under the same license as the indicator-sensors package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2011.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: indicator-sensors\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-11-02 22:58+1030\n"
+"PO-Revision-Date: 2013-01-21 08:37+0000\n"
+"Last-Translator: Eugene Marshal <Unknown>\n"
+"Language-Team: Russian <ru@li.org>\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2013-11-02 11:56+0000\n"
+"X-Generator: Launchpad (build 16820)\n"
+
+#: ../data/indicator-sensors.gschema.xml.in.h:1
+#: ../data/indicator-sensors.gschema.xml.in.in.h:1
+msgid "Primary sensor to display"
+msgstr "Первичный датчик для отображения"
+
+#: ../data/indicator-sensors.gschema.xml.in.h:2
+#: ../data/indicator-sensors.gschema.xml.in.in.h:2
+msgid ""
+"The primary sensor to display in the indicator, identified by it’s path."
+msgstr ""
+
+#: ../data/indicator-sensors.gschema.xml.in.h:3
+#: ../data/indicator-sensors.gschema.xml.in.in.h:3
+msgid "Display flags for the indicator"
+msgstr ""
+
+#: ../data/indicator-sensors.gschema.xml.in.h:4
+#: ../data/indicator-sensors.gschema.xml.in.in.h:4
+msgid "The elements used to display the primary sensor within the indicator."
+msgstr ""
+
+#: ../data/indicator-sensors.gschema.xml.in.h:5
+#: ../data/indicator-sensors.gschema.xml.in.in.h:5
+msgid "Enabled sensors"
+msgstr "Активные датчики"
+
+#: ../data/indicator-sensors.gschema.xml.in.h:6
+#: ../data/indicator-sensors.gschema.xml.in.in.h:6
+msgid "The list of enabled sensors to monitor, each identified by it’s path."
+msgstr ""
+
+#: ../data/indicator-sensors.gschema.xml.in.h:7
+#: ../data/indicator-sensors.gschema.xml.in.in.h:7
+msgid "Seconds to delay hiding / showing alarms"
+msgstr ""
+
+#: ../data/indicator-sensors.gschema.xml.in.h:8
+#: ../data/indicator-sensors.gschema.xml.in.in.h:8
+msgid ""
+"Alarm delay adds some hysteresis so alarms aren't shown for quickly "
+"fluctuating values."
+msgstr ""
+
+#: ../data/indicator-sensors.gschema.xml.in.h:9
+#: ../data/indicator-sensors.gschema.xml.in.in.h:9
+#: ../indicator-sensors/is-preferences-dialog.c:168
+msgid "Temperature scale"
+msgstr "Температурная шкала"
+
+#: ../data/indicator-sensors.gschema.xml.in.h:10
+#: ../data/indicator-sensors.gschema.xml.in.in.h:10
+msgid "The temperature scale to display temperature sensor values."
+msgstr "Температурная шкала измерения показаний датчиков"
+
+#: ../data/indicator-sensors.gschema.xml.in.h:11
+#: ../data/indicator-sensors.gschema.xml.in.in.h:11
+msgid "Show indicator"
+msgstr "Показать индикатор"
+
+#: ../data/indicator-sensors.gschema.xml.in.h:12
+#: ../data/indicator-sensors.gschema.xml.in.in.h:12
+msgid "Whether to show the indicator in the notification area."
+msgstr ""
+
+#: ../data/indicator-sensors.desktop.in.h:1
+#: ../indicator-sensors/is-application.c:822
+msgid "Hardware Sensors Indicator"
+msgstr "Индикатор аппаратных датчиков"
+
+#: ../data/indicator-sensors.desktop.in.h:2
+msgid "An indicator for Unity which displays hardware sensor readings"
+msgstr "Индикатор показаний аппаратных датчиков для Unity"
+
+#: ../data/indicator-sensors.appdata.xml.in.h:1
+msgid ""
+"Hardware Sensors Indicator provides temperature, fan and voltage sensor "
+"readings within the panel of your desktop."
+msgstr ""
+
+#: ../data/indicator-sensors.appdata.xml.in.h:2
+msgid ""
+"When running GNOME Shell it is recommended to also install the associated "
+"GNOME Shell extension from extensions.gnome.org - https://extensions.gnome."
+"org/extension/336/hardware-sensors-indicator/ ."
+msgstr ""
+
+#: ../indicator-sensors/indicator-sensors.c:152
+msgid "No Sensors Enabled For Monitoring"
+msgstr "Наблюдение за датчиками отключено"
+
+#: ../indicator-sensors/indicator-sensors.c:153
+msgid ""
+"Sensors detected but none are enabled for monitoring. To enable monitoring "
+"of sensors open the Preferences window and select the sensors to monitor"
+msgstr ""
+"Датчики обнаружены, но наблюдение ни за одним не включено. Чтобы включить "
+"наблюдение, откройте окно «Параметры» и отметьте необходимые датчики"
+
+#: ../indicator-sensors/is-application.c:824
+msgid "Indicator for GNOME / Unity showing hardware sensors."
+msgstr "Индикатор аппаратных датчиков для GNOME / Unity."
+
+#: ../indicator-sensors/is-fan-sensor.c:40
+msgid " RPM"
+msgstr " об./мин."
+
+#: ../indicator-sensors/is-indicator.c:160
+msgid "Preferences…"
+msgstr "Параметры..."
+
+#: ../indicator-sensors/is-indicator.c:161
+msgid "Preferences"
+msgstr "Настройки"
+
+#: ../indicator-sensors/is-indicator.c:162
+msgid "About…"
+msgstr "Сведения..."
+
+#: ../indicator-sensors/is-indicator.c:163
+msgid "About"
+msgstr ""
+
+#: ../indicator-sensors/is-indicator.c:164
+#: ../indicator-sensors/is-indicator.c:165
+msgid "Quit"
+msgstr "Выход"
+
+#: ../indicator-sensors/is-indicator.c:237
+msgid "No Sensors"
+msgstr "Нет датчиков"
+
+#: ../indicator-sensors/is-indicator.c:554
+#: ../indicator-sensors/is-indicator.c:680
+msgid "No active sensors"
+msgstr "Нет активных датчиков"
+
+#: ../indicator-sensors/is-manager.c:302
+#: ../indicator-sensors/is-sensor-dialog.c:315
+msgid "Sensor"
+msgstr "Датчик"
+
+#: ../indicator-sensors/is-manager.c:310
+#: ../indicator-sensors/is-preferences-dialog.c:149
+msgid "Icon"
+msgstr "Пиктограмма"
+
+#: ../indicator-sensors/is-manager.c:319
+#: ../indicator-sensors/is-preferences-dialog.c:154
+#: ../indicator-sensors/is-sensor-dialog.c:106
+msgid "Label"
+msgstr "Метка"
+
+#: ../indicator-sensors/is-manager.c:329
+msgid "Enabled"
+msgstr "Вкл."
+
+#: ../indicator-sensors/is-preferences-dialog.c:108
+msgid "Hardware Sensors Indicator Preferences"
+msgstr "Параметры индикатора датчиков оборудования"
+
+#: ../indicator-sensors/is-preferences-dialog.c:127
+msgid "General"
+msgstr "Основное"
+
+#: ../indicator-sensors/is-preferences-dialog.c:135
+msgid "Start automatically on login"
+msgstr "Запускать автоматически при входе в систему"
+
+#: ../indicator-sensors/is-preferences-dialog.c:141
+msgid "Primary sensor display"
+msgstr "Вид первичного датчика"
+
+#: ../indicator-sensors/is-preferences-dialog.c:159
+msgid "Value"
+msgstr "Значение"
+
+#: ../indicator-sensors/is-preferences-dialog.c:176
+msgid "Celsius (°C)"
+msgstr "Цельсия"
+
+#: ../indicator-sensors/is-preferences-dialog.c:187
+msgid "Fahrenheit (°F)"
+msgstr "Фаренгейта"
+
+#: ../indicator-sensors/is-sensor.c:380
+msgid "Sensor Alarm"
+msgstr "Уровень тревоги"
+
+#: ../indicator-sensors/is-sensor-dialog.c:88
+msgid " Sensor Properties"
+msgstr " Свойства Датчика"
+
+#: ../indicator-sensors/is-sensor-dialog.c:115
+msgid "Alarm"
+msgstr "Тревога"
+
+#: ../indicator-sensors/is-sensor-dialog.c:123
+msgid "Disabled"
+msgstr "Отключено"
+
+#: ../indicator-sensors/is-sensor-dialog.c:126
+msgid "Below"
+msgstr "Ниже"
+
+#: ../indicator-sensors/is-sensor-dialog.c:129
+msgid "Above"
+msgstr "Выше"
+
+#: ../indicator-sensors/is-sensor-dialog.c:147
+msgid "Low value"
+msgstr "Нижнее значение"
+
+#: ../indicator-sensors/is-sensor-dialog.c:166
+msgid "High value"
+msgstr "Верхнее значение"
+
+#. first placeholder is sensor name
+#: ../plugins/aticonfig/is-aticonfig-plugin.c:159
+#, c-format
+msgid "Error reading temperature value for GPU %d"
+msgstr "Ошибка при чтении значения температуры для ГПУ %d"
+
+#. first placeholder is sensor name
+#: ../plugins/aticonfig/is-aticonfig-plugin.c:198
+#, c-format
+msgid "Error reading fanspeed value for GPU %d"
+msgstr "Ошибка при чтении значения скорости вращения вентилятора для ГПУ %d"
+
+#: ../plugins/aticonfig/is-aticonfig-plugin.c:337
+msgid "Temperature"
+msgstr "Температура"
+
+#: ../plugins/aticonfig/is-aticonfig-plugin.c:355
+msgid "Fan"
+msgstr "Вентилятор"
+
+#. first placeholder is sensor name,
+#. * second is error message
+#: ../plugins/libsensors/is-libsensors-plugin.c:174
+#, c-format
+msgid "Error getting sensor value for sensor %s: %s [%d]"
+msgstr "Ошибка получения значения датчика %s: %s [%d]"
+
+#. translators: V is the unit for Voltage, replace with
+#. appropriate unit
+#: ../plugins/libsensors/is-libsensors-plugin.c:315
+msgid "V"
+msgstr "В"
+
+#: ../plugins/libsensors/is-libsensors-plugin.c:375
+msgid "No Sensors Detected"
+msgstr "Датчики не обнаружены"
+
+#: ../plugins/libsensors/is-libsensors-plugin.c:376
+#, c-format
+msgid ""
+"Try running the command 'sensors-detect' from the command-line and "
+"restarting %s"
+msgstr ""
+"Попробуйте выполнить команду 'sensors-detect' из командной строки и "
+"перезапустить %s"
+
+#. first placeholder is
+#. * sensor name
+#: ../plugins/nvidia/is-nvidia-plugin.c:192
+#, c-format
+msgid "Error getting sensor value for sensor %s"
+msgstr "Ошибка получения значения датчика %s"
+
+#: ../plugins/udisks/is-udisks-plugin.c:149
+#: ../plugins/udisks2/is-udisks2-plugin.c:126
+#, c-format
+msgid "Error reading new SMART data for sensor %s"
+msgstr "Ошибка чтения данных SMART датчика %s"
+
+#: ../plugins/udisks/is-udisks-plugin.c:165
+#, c-format
+msgid "Error refreshing SMART data for sensor %s"
+msgstr "Ошибка обновления данных SMART датчика %s"
