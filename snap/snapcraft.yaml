@@ -59,7 +59,7 @@ apps:
 parts:
   indicator-sensors:
     after: [desktop-gnome-platform]
-    source: ./home/kevin/sensor
+    source: https://github.com/iamkk11/sensors.git
     source-type: git
     plugin: autotools
     configflags: [--prefix=/snap/indicator-sensors/current/usr]
