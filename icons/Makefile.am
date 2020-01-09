@@ -6,17 +6,6 @@ statusicons_DATA = \
 	hicolor/22x22/status/high-value-icon.png \
 	hicolor/22x22/status/very-high-value-icon.png
 
-deviceiconsdir = $(datadir)/icons/hicolor/22x22/devices
-deviceicons_DATA = \
-	hicolor/22x22/devices/indicator-sensors-battery.png \
-	hicolor/22x22/devices/indicator-sensors-case.png \
-	hicolor/22x22/devices/indicator-sensors-chip.png \
-	hicolor/22x22/devices/indicator-sensors-cpu.png \
-	hicolor/22x22/devices/indicator-sensors-gpu.png \
-	hicolor/22x22/devices/indicator-sensors-fan.png \
-	hicolor/22x22/devices/indicator-sensors-disk.png \
-	hicolor/22x22/devices/indicator-sensors-memory.png
-
 appicon256dir = $(datadir)/icons/hicolor/256x256/apps
 appicon256_DATA = hicolor/256x256/apps/indicator-sensors.png
 appicon48dir = $(datadir)/icons/hicolor/48x48/apps
@@ -50,5 +39,4 @@ update_icon_cache:
 
 EXTRA_DIST = \
 	$(statusicons_DATA) \
-	$(deviceicons_DATA) \
 	$(appicon_files)
