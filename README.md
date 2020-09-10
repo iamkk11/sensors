@@ -1,4 +1,6 @@
-# Hardware Sensors Indicator (indicator-sensors)
+A fork from Alex Murrays Indicator Sensors library but built with more apealing sensor images
+
+# Harddware Sensors Indicator (indicator-sensors)
 
 [![License GPL 3](https://img.shields.io/badge/license-GPL_3-green.svg)](http://www.gnu.org/licenses/gpl-3.0.txt)
 [![Snap Status](https://build.snapcraft.io/badge/alexmurray/indicator-sensors.svg)](https://build.snapcraft.io/user/alexmurray/indicator-sensors)
